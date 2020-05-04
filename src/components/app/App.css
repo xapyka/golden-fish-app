@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  margin-top: 10px;
+  height: 30vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #0b82a3;
+  min-height: 100vh;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-button {
+  color: white;
+  width: 100px;
+  height: 30px;
+  display: block;
+  margin: auto;
+  border: 1px solid #55adc5;
+  background-color: #55adc5;
+  border-radius: 13px;  
+}
+
+.App-sign-in {
+  margin-bottom: 10px;
+}
+
+.App-sign-up {
+}
