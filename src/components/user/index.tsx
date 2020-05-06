@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Index() {
+function UserPage() {
     return (
         <div>
             This is user page.
@@ -8,4 +8,4 @@ function Index() {
     )
 }
 
-export default Index;
+export default UserPage;
