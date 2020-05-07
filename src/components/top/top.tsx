@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../app/App.css';
-import AppHeader from './header';
+import AppHeader from '../app/header';
 
 function Top() {
     return (

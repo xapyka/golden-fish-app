@@ -1,5 +1,5 @@
 import React from 'react';
-import AppHeader from '../top/header';
+import AppHeader from '../app/header';
 import ImageUpLoader from './image-uploader';
 
 function UserPage() {
