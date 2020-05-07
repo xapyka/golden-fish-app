@@ -1,9 +1,14 @@
 import React from 'react';
+import AppHeader from '../app/header';
+import ImageUpLoader from './image-uploader';
 
 function UserPage() {
     return (
         <div>
-            This is user page.
+            <header className="App-header">
+                <AppHeader />
+                <ImageUpLoader />
+            </header>
         </div>
     )
 }
