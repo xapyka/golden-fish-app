@@ -1,19 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../app/App.css';
+import AppHeader from './header';
 
 function Top() {
     return (
         <div>
             <header className="App-header">
-                <img src="/logo.png" className="App-logo" alt="logo" />
-                <a
-                    className="App-link"
-                    href="/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                </a>
+
+                <AppHeader />
                 <Link to="/signin">
                     <button className="App-sign-in App-button">
                         Sign In

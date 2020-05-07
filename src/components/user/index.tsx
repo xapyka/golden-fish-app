@@ -1,9 +1,12 @@
 import React from 'react';
+import AppHeader from '../top/header';
 
 function UserPage() {
     return (
         <div>
-            This is user page.
+            <header className="App-header">
+                <AppHeader />
+            </header>
         </div>
     )
 }
