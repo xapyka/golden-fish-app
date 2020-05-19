@@ -4,6 +4,7 @@ import signUp from '../sign-up/sign-up';
 import signIn from '../sign-in/sign-in';
 import UserPage from '../user';
 import { BrowserRouter, Route } from 'react-router-dom';
+import '../app/app.css';
 
 function App() {
   return (
